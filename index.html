@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff5f7" />
+  <title>For My Bangaram ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Private access screen -->
+  <div id="lockScreen" class="lock-screen" role="dialog" aria-modal="true" aria-labelledby="lockTitle">
+    <div class="lock-card">
+      <div class="lock-heart" aria-hidden="true">♡</div>
+      <p class="lock-eyebrow">A little secret, just for you</p>
+      <h1 id="lockTitle">For my Bangaram ❤️</h1>
+      <p class="lock-message">This little piece of our story is meant for one person.</p>
+
+      <form id="unlockForm" autocomplete="off">
+        <label for="accessCode">Enter the date it all started</label>
+        <input
+          id="accessCode"
+          name="accessCode"
+          type="password"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          maxlength="8"
+          placeholder="DDMMYYYY"
+          aria-describedby="lockHint lockError"
+          required
+        />
+        <p id="lockHint" class="lock-hint">Our beginning </p>
+        <button type="submit" class="unlock-btn">Open our story <span>♡</span></button>
+        <p id="lockError" class="lock-error" role="alert" aria-live="polite"></p>
+      </form>
+
+      <p class="lock-footer">Some memories are better kept between two hearts. ❤️</p>
+    </div>
+  </div>
+
+  <div id="hearts" aria-hidden="true"></div>
+
+  <main id="siteContent" aria-hidden="true">
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow reveal">26 • 09 • 2026</p>
+      <h1 class="hero-title reveal">For my<br><span>Bangaram</span> ❤️</h1>
+      <p class="hero-subtitle reveal">One year. One story. Us.</p>
+      <button class="open-btn reveal" id="openBtn">Open our story <span>♡</span></button>
+      <div class="scroll-hint">scroll gently ↓</div>
+    </section>
+
+    <div id="story" class="story hidden">
+
+      <section class="chapter intro reveal">
+        <span class="chapter-number">01</span>
+        <p class="chapter-label">Where it all began</p>
+        <h2>It started in a BEE lab...</h2>
+        <div class="letter-card">
+          <p>Ours is a bit complicated story...</p>
+          <p> Starting lo ninnu naa friend anukunna so kept quiet and acted myself as a friend. Even you, keeping in respect of our friendship, didn't tell me even though she loved me.</p>
+          <p>Our first talk was in BEE lab where I was very silent. you are the one who started the convo. Then we slowly became close after few days.</p>
+          <p>But while going through the days I felt something that I didn't get from anyone.</p>
+        </div>
+      </section>
+
+      <section class="chapter reveal">
+        <span class="chapter-number">02</span>
+        <p class="chapter-label">Somehow, you became special</p>
+        <h2>From a misunderstanding to trust.</h2>
+        <div class="letter-card">
+          <p>Kaani okari false matala vallaa nuvvu nannu thappuga ardham cheskoni natho antha close ga lekunde . Taruvata em ayindho telidhu, nuvve malli sarigga matladatam start chesav.</p>
+          <p>Naku evaru antha care, antha priority ivvale nuvvu icchav. Inka nuvvu ala jolly jolly ga life ni enjoy chese vidhanam naku chala nachedhi.</p>
+          <p>Ala ala ayipoyindhi oka phase. Nenu nuvvu  metro vellatam nijangaa devudi pani kavachu, idhi antha aa roju metro lo  chala dull ga kanipisthe adigaa kaa em ayindhi ani akkada start ayindhi... you shared problems and then ala ala naa medha nammakam vachi anni share cheskunnav.</p>
+          <p>I supported you . Naa manasulo appatike nii meedha prema putti adhi love aa kadha anna confusion lo unde danni antha ga pattinchukole appudu, kaani evaro matala valla nuvvu naatho antha close ga lekunde. Ala appudu nuvvu  naatho share cheskunnapudu, nak nachina pillanu ala chudaleka naa best nen help chesaa.</p>
+        </div>
+      </section>
+
+      <section class="chapter playful reveal">
+        <span class="chapter-number">03</span>
+        <p class="chapter-label">The "just friends" era 😂</p>
+        <h2>Apparently... we were just friends.</h2>
+        <div class="letter-card">
+          <p>Konni rojulo chala close ayipoyam. Chala mandhi kuda adigaru...</p>
+          <div class="quote">"Are you two together?"</div>
+          <p class="center">And both of us:</p>
+          <div class="quote small">"We're just friends." 😂😂</div>
+          <p>Kani we used to hold hands... Give kiss emojis like 😘 and I even gave you  a nickname which i didn't even told you just typed bm every time 😌😌😌. Used to talk late nights, make calls...</p>
+          <p>And sudden one day you gave me cheek kiss. Then nen kuda icha cheek kiss, held you in my arms. ❤️</p>
+        </div>
+      </section>
+
+      <section class="chapter reveal">
+        <span class="chapter-number">04</span>
+        <p class="chapter-label">Navras</p>
+        <h2>That day.</h2>
+        <div class="letter-card">
+          <p>We did not confess to each other. I directly declared that we are in a relationship 😭...</p>
+          <p>Navras..... Appudu manam inka friends ee. Nen ni outfit match cheyali ani chala kastapadda, match chesaa.</p>
+          <p>you were performing that day. NI outfit photo kuda nak mundhe pettav — "idhi na outfit" ani. Nen dani meedha naa outfit thiskunna.</p>
+          <p>We enjoyed that day. While our friends were dancing, nen ninnu pakkaki thiskellaa open ground lo oka side.</p>
+          <p>Nii perfume aa dress.. ahaaaa chala ante chala bagundee. Na valla kaka I gave you cheek kiss in the open ground by carefully checking surroundings...</p>
+          <p class="emphasis">Actually I didn't. 😅😅 I directly kissed you on your cheek.</p>
+          <p>That was the best day... We took a pic too. ❤️</p>
+        </div>
+      </section>
+
+      <section class="chapter reveal">
+        <span class="chapter-number">05</span>
+        <p class="chapter-label">When I realized how much I missed you</p>
+        <h2>Then the holidays came...</h2>
+        <div class="letter-card">
+          <p>Holidays came. We couldn't meet each other. you used to message me daily before, but one day you didn't.</p>
+          <p>I was waiting for your message. you came online late that night. I messaged you in a way that, <span class="telugu">"Alavatu ayipoyav nuvvu... baaga msg raakapothe chala kastam ga unde."</span></p>
+          <p>Then made a voice call you told that I was madly in love with her. Adhi oka proposal kuda kaadhu... it's just normal way you told me kani nen iga appudu open ayya niku.</p>
+        </div>
+      </section>
+
+      <section class="chapter kiss-chapter reveal">
+        <span class="chapter-number">06</span>
+        <p class="chapter-label">The metro platform</p>
+        <h2>And then... ❤️</h2>
+        <div class="letter-card">
+          <p>The day college was starting, we met in metro. We were talking on the metro platform, seeing the buildings.</p>
+          <p>You turned her head away. While you were turning  towards me, I suddenly kissed you on your lips.</p>
+          <p class="big-heart">♥</p>
+          <p class="emphasis center">Even you didn't back down and kissed me back.</p>
+        </div>
+      </section>
+
+      <section class="chapter secret reveal">
+        <span class="chapter-number">07</span>
+        <p class="chapter-label">Our little secret 🤫</p>
+        <h2>We kept it just ours.</h2>
+        <div class="letter-card">
+          <p>Manam chala secret ga maintain chestunde mana relationship ni. We didn't even disclose it to our friends.</p>
+          <p>Whenever we got time, we made some issues(edho oka reason) and used to hug and kiss in our classroom after the college 😅😅...</p>
+          <p class="moon">And did a lot of stuff too 🌚🌚</p>
+        </div>
+      </section>
+
+      <section class="chapter reveal">
+        <span class="chapter-number">08</span>
+        <p class="chapter-label">We weren't always okay</p>
+        <h2>Love wasn't always easy.</h2>
+        <div class="letter-card">
+          <p>Ala chala happy gaa undee konni months. Dani taruvata nak telisindhi enti ante... basically nen chala reserve untunde.</p>
+          <p>I asked you to share things. You used to, even without asking too, but I used to not share. Nen chala reserve ga untunde, em cheppakapothundee.</p>
+          <p>Kani nuvvu avvi em pattinchukokunda ninnu nuvvu  change cheskunta vachav... ala ayindhi ani idea kuda lekunde naaku.</p>
+          <p>Konni issues valla nen ninnu chala  ignore chesaa. Sudden ga oka roju nuvvu nannu <span class="telugu">"Vadilesthunnava?"</span> ani related to that adiginappudu, I told <span class="emphasis">what happened</span> without even thinking.</p>
+          <p>Though I love you, my situation at that time made me do that.</p>
+        </div>
+      </section>
+
+      <section class="chapter emotional reveal">
+        <span class="chapter-number">09</span>
+        <p class="chapter-label">But I couldn't let you go</p>
+        <h2>We found our way back.</h2>
+        <div class="letter-card">
+          <p>You cried. I cried. But I couldn't let you go. So I told  we could still be friends ani.</p>
+          <p>One day while we were friends, I still chatted with you. I called you <span class="emphasis">Bangaram</span> again and was flirting.</p>
+          <p>you suddenly became silent and told me, <span class="telugu">"It's been long time since you called me that... it remembered me when we were in relationship."</span></p>
+          <p>You tried to convince me again. Nen kuda chala alochinchi, future lo em jaruguthundhi ani. Present karab cheskovadam enduku? Em ayina kani chuskundham ani.</p>
+          <p>I told you that I still love you. adhi nik kuda thelsu...</p>
+          <p class="emphasis center">And we came back together. ❤️</p>
+        </div>
+      </section>
+
+      <section class="chapter reveal">
+        <span class="chapter-number">10</span>
+        <p class="chapter-label">We changed each other</p>
+        <h2>Somehow, I became your version.</h2>
+        <div class="letter-card">
+          <p>As the days went on, I became the Chakrika version. you became my version.</p>
+          <p>I became more talkative and you became silent...</p>
+          <p>One day I noticed that you were on face ignoring me for few days. I tried to talk but gave cold replies.</p>
+          <p>This time or at that particular phase even ego took over me . I stopped asking what happened.</p>
+          <p>But one day you  told what happened and was sorry for  behaving like that.</p>
+          <p>But we got to know that there are more things we need to do: building our career and making our parents accept us.</p>
+        </div>
+      </section>
+
+      <section class="chapter growth reveal">
+        <span class="chapter-number">11</span>
+        <p class="chapter-label">The things I had to understand</p>
+        <h2>I had to look at myself too.</h2>
+        <div class="letter-card">
+          <p>After that I kept thinking on reassurance from you. Which made me overthink a lot and assume things wrongly and hurt you a lot.</p>
+          <p>By this act of mine you thought that I became the opposite of whom I was earlier — the understanding, very lively person.</p>
+          <p>Till the last few months you suffered a lot due to my overthinking. Everybody has their limit to bear anything. Even you.... lost and burst out and told me everything.</p>
+          <p>At first I was not able to take that, but eventually I understood and accepted my mistakes.</p>
+        </div>
+      </section>
+
+      <section class="chapter realization reveal">
+        <span class="chapter-number">12</span>
+        <p class="chapter-label">What I found</p>
+        <h2>I didn't just find love.</h2>
+        <div class="letter-card">
+          <p>After all that i realised What I lost was myself.</p>
+          <p>But there's a person not from my circle, or your circle, or our circle... changed the way I thought of my life.</p>
+          <p>I don't know whether I became the one who I used to be, but I can guarantee one thing:</p>
+          <p class="emphasis center">I don't overthink now.</p>
+          <p>But I miss you a lot bangaram.</p>
+          <p>you have work to do, music, do household chores and all... I need to understand that every one has their own life give them their own space it's about giving freedom to one whom we love dont misunderstand them by comparing with anything else...</p>
+          <p>I still love you the way I used to.</p>
+          <p class="big-line">you are the past, present and tomorrow for me. ❤️</p>
+          <p>I hope I am now understanding... what i done how was i ani..</p>
+        </div>
+      </section>
+
+      <section class="chapter letter-section reveal">
+        <span class="chapter-number">13</span>
+        <p class="chapter-label">From Vishu to Bangaram</p>
+        <h2>What I want you to know.</h2>
+        <div class="final-letter">
+          <p>Banagarm ee one year of mana journey lo nen chala chusaa mana happiness mana badhalu mana godavalu annii....</p>
+          <p>One thing I want you to know is that Evo Evo alochinchi ninnu chala ibbandhi petta daniki nen niku enni sarlu sorry cheppina waste ee.</p>
+          <p>Ala ani nen motham change ayipotha ani Cheppa. Isari evarni baadha petta naku happiness vachindhi chestah. Adhi thappu aithe naku Cheppu...</p>
+          <p>Na future ni baaga build cheskuntaa. Andhulo niku nen nii yokka peace, home ane feeling vachetattu  nen niku prathi adugulo thodu untaa.</p>
+          <p>Nak Nii medha unna prema ennatiki ayina alane untadhi... Cheppalen emo kani nuvve ante pichi raa naaku...</p>
+          <p class="signature-love">I love you bangaram....</p>
+          <p>Be happy always. Keep smiling.... ❤️</p>
+        </div>
+      </section>
+
+      <section class="final reveal" id="final">
+        <div class="final-glow"></div>
+        <div class="final-content">
+          <span class="tiny-heart">♡</span>
+          <p class="final-kicker">One year of us</p>
+          <h2>A year with full of ups and downs,<br>but I still choose you.</h2>
+          <p class="final-sub">Whatever the situation may be,<br>however you may be.</p>
+          <div class="divider">✦</div>
+          <p class="anniversary">Happy Anniversary ❤️🫶🫶🫶</p>
+          <p class="with-love">With love,<br><strong>your Bangaram (Vishu)</strong></p>
+          <p class="say-it">Some things are better said in person. ❤️</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
